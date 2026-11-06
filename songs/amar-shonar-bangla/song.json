@@ -1,0 +1,36 @@
+{
+  "title": "আমার সোনার বাংলা",
+  "titleLatin": "Amar Shonar Bangla",
+  "artist": "Rabindranath Tagore",
+  "language": "Bengali",
+  "lang": "bn",
+  "note": "Stand-in sample (public domain lyrics, opening verse). Replace with your own songs.",
+  "lines": [
+    {
+      "section": "Verse",
+      "original": "আমার সোনার বাংলা, আমি তোমায় ভালোবাসি।",
+      "transliteration": "Amar shonar Bangla, ami tomay bhalobashi.",
+      "translation": "My golden Bengal, I love you."
+    },
+    {
+      "original": "চিরদিন তোমার আকাশ, তোমার বাতাস, আমার প্রাণে বাজায় বাঁশি॥",
+      "transliteration": "Chirodin tomar akash, tomar batash, amar prane bajay bashi.",
+      "translation": "Forever your skies, your breezes play a flute in my soul."
+    },
+    {
+      "original": "ও মা, ফাগুনে তোর আমের বনে ঘ্রাণে পাগল করে,",
+      "transliteration": "O ma, phagune tor amer bone ghrane pagol kore,",
+      "translation": "O mother, in spring the scent of your mango groves drives me wild,"
+    },
+    {
+      "original": "মরি হায়, হায় রে—",
+      "transliteration": "Mori hay, hay re—",
+      "translation": "Ah, I am overcome, alas—"
+    },
+    {
+      "original": "ও মা, অঘ্রাণে তোর ভরা খেতে, আমি কী দেখেছি মধুর হাসি॥",
+      "transliteration": "O ma, aghrane tor bhora khete, ami ki dekhechhi modhur hashi.",
+      "translation": "O mother, in autumn, in your brimming fields, what sweet smiles I have seen."
+    }
+  ]
+}

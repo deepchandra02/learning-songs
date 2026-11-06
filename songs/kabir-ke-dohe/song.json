@@ -1,0 +1,43 @@
+{
+  "title": "कबीर के दोहे",
+  "titleLatin": "Kabir ke Dohe",
+  "artist": "Kabir",
+  "language": "Hindi",
+  "lang": "hi",
+  "note": "Stand-in sample (Kabir's dohas are centuries old and in the public domain). Transliteration and translation are my own. Replace with your own songs.",
+  "lines": [
+    {
+      "section": "Doha 1",
+      "original": "बुरा जो देखन मैं चला, बुरा न मिलिया कोय।",
+      "transliteration": "Bura jo dekhan main chala, bura na miliya koy.",
+      "translation": "I set out to look for the wicked, and found no wicked person."
+    },
+    {
+      "original": "जो दिल खोजा आपना, मुझसे बुरा न कोय॥",
+      "transliteration": "Jo dil khoja aapna, mujhse bura na koy.",
+      "translation": "When I searched my own heart, no one was worse than me."
+    },
+    {
+      "section": "Doha 2",
+      "original": "दुख में सुमिरन सब करें, सुख में करे न कोय।",
+      "transliteration": "Dukh mein sumiran sab karein, sukh mein kare na koy.",
+      "translation": "In sorrow everyone remembers God; in happiness no one does."
+    },
+    {
+      "original": "जो सुख में सुमिरन करे, तो दुख काहे को होय॥",
+      "transliteration": "Jo sukh mein sumiran kare, to dukh kaahe ko hoy.",
+      "translation": "If one remembered Him in happiness, why would sorrow ever come?"
+    },
+    {
+      "section": "Doha 3",
+      "original": "माटी कहे कुम्हार से, तू क्या रौंदे मोय।",
+      "transliteration": "Maati kahe kumhaar se, tu kya raunde moy.",
+      "translation": "The clay says to the potter: why do you trample me?"
+    },
+    {
+      "original": "एक दिन ऐसा आएगा, मैं रौंदूँगी तोय॥",
+      "transliteration": "Ek din aisa aayega, main raundungi toy.",
+      "translation": "A day will come when I will trample you."
+    }
+  ]
+}
