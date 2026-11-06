@@ -14,13 +14,15 @@ function render(song) {
 
   const box = $("lines");
   box.innerHTML = "";
+  let lastSection = null;
   for (const l of song.lines) {
-    if (l.section) {
+    if (l.section && l.section !== lastSection) {
       const h = document.createElement("div");
       h.className = "section";
       h.textContent = l.section;
       box.append(h);
     }
+    if (l.section) lastSection = l.section;
     const row = document.createElement("div");
     row.className = "row";
     row.append(

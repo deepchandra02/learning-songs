@@ -46,7 +46,7 @@ async function loadList() {
 //  2 words  -> first initial + next consonant of the first word + last initial   (Rabindranath Tagore -> RBT)
 //  1 word   -> first three consonants   (Kabir -> KBR)
 function monogram(name) {
-  const words = name.trim().split(/\s+/).filter(Boolean);
+  const words = name.replace(/[^\p{L}\s]/gu, "").trim().split(/\s+/).filter(Boolean);
   const cons = (w) => Array.from(w).filter((ch, i) => i > 0 && /[^aeiou\W\d_]/i.test(ch));
   let out;
   if (words.length >= 3) out = [words[0][0], words[Math.floor(words.length / 2)][0], words[words.length - 1][0]];
