@@ -42,6 +42,7 @@ songs/
      "artist": "Rabindranath Tagore",
      "language": "Bengali",
      "lang": "bn",
+     "musicUrl": "https://music.youtube.com/watch?v=...",
      "note": "Optional text shown under the lyrics.",
      "lines": [
        {
@@ -55,6 +56,7 @@ songs/
    ```
 
    - `lang` is the language code (`bn`, `hi`, ...), used for fonts and accessibility.
+   - `musicUrl` is optional. A YouTube / YouTube Music link adds a "Listen" button at the top of the song page.
    - `section` is optional. It starts a new labelled group (Verse, Chorus, ...).
    - Each line holds all three versions together, so they can't drift out of alignment.
 

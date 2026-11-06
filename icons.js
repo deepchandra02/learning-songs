@@ -12,6 +12,8 @@ const ICONS = {
   music: '<path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>',
   x: '<path d="M18 6 6 18M6 6l12 12"/>',
   type: '<path d="M4 7V4h16v3M9 20h6M12 4v16"/>',
+  play: '<circle cx="12" cy="12" r="10"/><path d="m10 8 6 4-6 4z"/>',
+  external: '<path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
   list: '<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>',
 };
 const icon = (name) =>

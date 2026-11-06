@@ -12,6 +12,17 @@ function render(song) {
   $("subtitle").textContent = [song.titleLatin && song.title, song.artist, song.language].filter(Boolean).join(" · ");
   $("note").textContent = song.note || "";
 
+  // Optional link to the song on YouTube Music (only https URLs on youtube hosts)
+  const listen = $("listen");
+  listen.hidden = true;
+  try {
+    const u = new URL(song.musicUrl);
+    if (u.protocol === "https:" && /(^|\.)youtube\.com$/.test(u.hostname)) {
+      listen.href = u.href;
+      listen.hidden = false;
+    }
+  } catch {}
+
   const box = $("lines");
   box.innerHTML = "";
   let lastSection = null;
